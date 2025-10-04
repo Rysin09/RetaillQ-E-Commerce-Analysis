@@ -90,5 +90,7 @@ git clone https://github.com/your-username/SalesSphere-Analytics-Hub.git
 ├── 📄 Product_report.sql          # View: product performance metrics
 ├── 📊 gold.dim_customers.csv      # Customer dimension data
 ├── 📊 gold.dim_products.csv       # Product dimension data
+├── 📊 gold.report_customers.csv   # Customer Report View
+├── 📊 gold.report_products.csv    # Product Report View
 └── 📊 gold.fact_sales.csv         # Fact table: sales transactions
 ```
