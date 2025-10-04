@@ -1,9 +1,7 @@
 # 🌐 SalesSphere Analytics Hub  
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)  
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)  
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)  
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)  
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)   
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)   
 
 > 🚀 A **comprehensive Data Warehouse & Business Intelligence solution** designed to transform raw sales data into **actionable insights** with advanced SQL analytics and BI dashboards.  
 
