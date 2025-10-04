@@ -78,3 +78,16 @@ git clone https://github.com/your-username/SalesSphere-Analytics-Hub.git
 # Open the SQL files in SSMS and execute them
 # Load CSV files into corresponding tables
 
+---
+
+## File Structure
+.
+├── 📄 Advanced-Analytics.sql      # DDL + advanced queries
+├── 📄 Customer_report.sql         # View: customer metrics
+├── 📄 Data_Segmentation.sql       # Queries: customer/product segmentation
+├── 📄 Performance_Analysis.sql    # Queries: time-series & YoY analysis
+├── 📄 Product_report.sql          # View: product performance metrics
+├── 📊 gold.dim_customers.csv      # Customer dimension data
+├── 📊 gold.dim_products.csv       # Product dimension data
+└── 📊 gold.fact_sales.csv         # Fact table: sales transactions
+
