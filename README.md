@@ -6,9 +6,6 @@
 
 > 🚀 A **comprehensive Data Warehouse & Business Intelligence solution** designed to transform raw sales data into **actionable insights** with advanced SQL analytics and BI dashboards.  
 
-
-> 🚀 A **comprehensive Data Warehouse & Business Intelligence solution** designed to transform raw sales data into **actionable insights** with advanced SQL analytics and BI dashboards.  
-
 ---
 
 ## 📑 Table of Contents  
@@ -81,10 +78,10 @@ git clone https://github.com/your-username/SalesSphere-Analytics-Hub.git
 
 # Open the SQL files in SSMS and execute them
 # Load CSV files into corresponding tables
-
+```
 ---
-
-## File Structure
+## 📂 File Stucture
+```bash
 .
 ├── 📄 Advanced-Analytics.sql      # DDL + advanced queries
 ├── 📄 Customer_report.sql         # View: customer metrics
@@ -94,4 +91,4 @@ git clone https://github.com/your-username/SalesSphere-Analytics-Hub.git
 ├── 📊 gold.dim_customers.csv      # Customer dimension data
 ├── 📊 gold.dim_products.csv       # Product dimension data
 └── 📊 gold.fact_sales.csv         # Fact table: sales transactions
-
+```
