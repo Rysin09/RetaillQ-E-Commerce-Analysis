@@ -1,76 +1,82 @@
-# RetaillQ-E-Commerce-Analysis 📊
+# 🌐 SalesSphere Analytics Hub  
 
-A comprehensive data warehouse and business intelligence project designed to extract actionable insights from sales data. This repository contains the SQL scripts to set up a data warehouse, perform advanced analytics, and generate reports on customer behavior, product performance, and overall sales trends.
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)  
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)  
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)  
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)  
 
----
-
-## 📋 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Data Model](#-data-model)
-- [Key Features & Analytics](#-key-features--analytics)
-- [Technology Stack](#-technology-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation & Setup](#installation--setup)
-- [File Structure](#-file-structure)
-- [BI Dashboard Showcase](#-bi-dashboard-showcase)
-- [License](#-license)
+> 🚀 A **comprehensive Data Warehouse & Business Intelligence solution** designed to transform raw sales data into **actionable insights** with advanced SQL analytics and BI dashboards.  
 
 ---
 
-## 🚀 Project Overview
+## 📑 Table of Contents  
 
-The SalesSphere Analytics Hub provides a robust framework for sales data analysis. By transforming raw sales data into structured reports and analytical views, this project empowers businesses to:
-
-- Understand customer demographics and purchasing habits.
-- Identify top-performing and underperforming products.
-- Analyze sales performance over time with YoY comparisons and moving averages.
-- Segment customers and products based on value and cost.
-
----
-
-## 🗂️ Data Model
-
-This project uses a classic **Star Schema**, which is optimized for querying and reporting. The model consists of one central fact table and two dimension tables.
-
-- **`gold.fact_sales`**: Contains quantitative transactional data like `sales_amount`, `quantity`, and `price`. It connects to the dimension tables via foreign keys.
-- **`gold.dim_customers`**: Contains descriptive attributes of the customers, such as name, country, gender, and age.
-- **`gold.dim_products`**: Contains descriptive attributes of the products, such as name, category, subcategory, and cost.
-
-
+- [Overview](#-overview)  
+- [Data Model](#-data-model)  
+- [Key Analytics](#-key-analytics)  
+- [Tech Stack](#-tech-stack)  
+- [Setup Guide](#-setup-guide)  
+- [Repository Structure](#-repository-structure)  
+- [BI Dashboard Showcase](#-bi-dashboard-showcase)  
+- [License](#-license)  
 
 ---
 
-## ✨ Key Features & Analytics
+## 🔎 Overview  
 
-- **Customer Segmentation:** Dynamically segments customers into **VIP**, **Regular**, and **New** categories based on their lifespan and total spending.
-- **Product Performance Analysis:** Classifies products as **High-Performer**, **Mid-Range**, and **Low-Performer** based on total sales revenue.
-- **Time-Series Analysis:** Includes calculations for **Year-over-Year (YoY) growth**, monthly running totals, and moving averages to identify trends.
-- **Demographic Reporting:** Generates insights based on customer age groups, marital status, and geographical location.
-- **Advanced KPIs:** Calculates essential metrics like **Average Order Value (AOV)**, Customer Lifespan, and Recency.
+The **SalesSphere Analytics Hub** empowers businesses to **leverage sales data** for strategic decision-making.  
+It provides a **scalable SQL-based data warehouse** and **BI-ready reporting views** that help in:  
 
----
-
-## 🛠️ Technology Stack
-
-- **Database:** Microsoft SQL Server
-- **Language:** T-SQL (Transact-SQL)
-- **BI/Visualization Tool (Recommended):** Power BI, Tableau, or any other BI tool that can connect to a SQL Server database.
+- ✅ Understanding **customer behavior & demographics**  
+- ✅ Tracking **product performance & profitability**  
+- ✅ Monitoring **sales trends** with advanced time-series analytics  
+- ✅ Creating **data-driven KPIs & dashboards** for stakeholders  
 
 ---
 
-## 🏁 Getting Started
+## 🗂️ Data Model  
 
-Follow these instructions to get the project up and running on your local machine.
+This project follows a **Star Schema** for optimized reporting:  
 
-### Prerequisites
+- **`gold.fact_sales`** → Transactional data (sales_amount, quantity, price)  
+- **`gold.dim_customers`** → Customer attributes (name, country, gender, age)  
+- **`gold.dim_products`** → Product attributes (name, category, subcategory, cost)  
 
-- Microsoft SQL Server (2017 or later)
-- SQL Server Management Studio (SSMS)
+📌 **Fact Table** = Sales Transactions  
+📌 **Dimension Tables** = Customers, Products  
 
-### Installation & Setup
+---
 
-**1. Clone the repository:**
+## ✨ Key Analytics  
+
+- 🔹 **Customer Segmentation** → VIP, Regular, New  
+- 🔹 **Product Performance Analysis** → High, Mid, Low Performer  
+- 🔹 **Time-Series Analysis** → YoY Growth, Running Totals, Moving Averages  
+- 🔹 **Demographic Reports** → Age, Gender, Country, Marital Status  
+- 🔹 **Advanced KPIs** → Average Order Value, Customer Lifespan, Recency  
+
+---
+
+## 🛠 Tech Stack  
+
+- **Database** → Microsoft SQL Server  
+- **Query Language** → T-SQL (Transact-SQL)  
+- **BI Tools** → Power BI / Tableau (recommended)  
+- **Version Control** → Git & GitHub  
+
+---
+
+## ⚡ Setup Guide  
+
+### Prerequisites  
+- Microsoft SQL Server (2017 or later)  
+- SQL Server Management Studio (SSMS)  
+
+### Installation  
 ```bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
+# Clone this repository
+git clone https://github.com/your-username/SalesSphere-Analytics-Hub.git
+
+# Open the SQL files in SSMS and execute them
+# Load CSV files into corresponding tables
+
